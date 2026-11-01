@@ -26,4 +26,4 @@ calc_cv <- function(field_value) {
     cv <- (calc_sd(field_value) / mean(field_value)) * 100
     return(cv)
 }
-calc_cv(field_value) # cv
+calc_cv(field_value) # for cv
